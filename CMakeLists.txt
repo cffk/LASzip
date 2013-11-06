@@ -154,6 +154,6 @@ include(CPack)
 
 add_custom_target(dist COMMAND ${CMAKE_MAKE_PROGRAM} package_source)
 
-if (WIN32)
+if (0 AND WIN32)
     include(BuildOSGeo4W)
-endif(WIN32)
+endif()
